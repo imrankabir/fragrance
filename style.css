@@ -25,9 +25,11 @@ main {
 }
 .product-card {
   width: 320px;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   background: white;
   border-radius: 10px;
+  overflow: hidden;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -40,6 +42,9 @@ main {
   object-fit: cover;
 }
 .product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
 }
 .product-details h2 {
@@ -51,7 +56,7 @@ main {
   margin: 0.25rem 0;
 }
 .price-list {
-  margin-top: 1rem;
+  margin-top: auto;
 }
 .price-list div {
   padding: 0.5rem;
@@ -61,8 +66,8 @@ main {
 }
 .availability {
   padding: 0.5rem;
-  margin-top: 1rem;
   font-weight: bold;
+  margin-top: 0.5rem;
   text-align: center;
   border-radius: 5px;
 }
@@ -93,6 +98,9 @@ main {
 }
 .whatsapp-contact a:hover {
   background: #1ebd5b;
+}
+.bottom-section {
+  margin-top: auto;
 }
 footer {
   color: #555;

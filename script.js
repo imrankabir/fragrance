@@ -75,9 +75,11 @@ data.items.forEach(item => {
       <h2>${item.name}</h2>
       <p><strong>Brand:</strong> ${item.brand}</p>
       <p>${item.description}</p>
-      ${item.show_price ? renderPrices(item.prices) : ""}
-      <div class="availability ${item.available ? 'available' : 'coming'}">
-        ${item.available ? 'Available' : 'Coming Soon'}
+      <div class="bottom-section">
+        ${item.show_price ? renderPrices(item.prices) : ""}
+        <div class="availability ${item.available ? 'available' : 'coming'}">
+          ${item.available ? 'Available' : 'Coming Soon'}
+        </div>
       </div>
     </div>
   `;
