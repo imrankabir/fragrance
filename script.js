@@ -17,11 +17,11 @@ const data = {
       "description": "A crisp, vibrant fragrance inspired by the refreshing breeze of English mornings. Sky Blue (England) blends cool citrus and aquatic notes with a hint of musk, making it perfect for confident, modern individuals.",
       "image": "images/sky-blue.png",
       "brand": "J. (Junaid Jamshed)",
-      "available": true,
+      "available": false,
       "show_price": true,
       "prices": [
-        { "quantity": "6ml", "price": "500 PKR" },
-        { "quantity": "12ml", "price": "980 PKR" }
+        { "quantity": "6ml", "price": "700 PKR" },
+        { "quantity": "12ml", "price": "1,300 PKR" }
       ]
     },
     {
@@ -41,11 +41,11 @@ const data = {
       "description": "A bold and enchanting fragrance crafted for those who command attention. Elixir features a rich blend of spicy, woody, and oriental notes, offering a deep, masculine scent with remarkable longevity and projection. Ideal for evening wear and special occasions.",
       "image": "images/elixir.png",
       "brand": "J. (Junaid Jamshed)",
-      "available": true,
+      "available": false,
       "show_price": true,
       "prices": [
-        { "quantity": "6ml", "price": "750 PKR" },
-        { "quantity": "12ml", "price": "1,400 PKR" }
+        { "quantity": "6ml", "price": "550 PKR" },
+        { "quantity": "12ml", "price": "1,000 PKR" }
       ]
     },
     {
@@ -56,8 +56,8 @@ const data = {
       "available": true,
       "show_price": true,
       "prices": [
-        { "quantity": "6ml", "price": "750 PKR" },
-        { "quantity": "12ml", "price": "1,400 PKR" }
+        { "quantity": "6ml", "price": "850 PKR" },
+        { "quantity": "12ml", "price": "1,600 PKR" }
       ]
     },
   ]
