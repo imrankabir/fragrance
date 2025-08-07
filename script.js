@@ -44,8 +44,7 @@ const data = {
       "available": false,
       "show_price": true,
       "prices": [
-        { "quantity": "6ml", "price": "550 PKR" },
-        { "quantity": "12ml", "price": "1,000 PKR" }
+        { "quantity": "50ml", "price": "3,600 PKR" }
       ]
     },
     {
@@ -64,11 +63,9 @@ const data = {
 };
 
 const container = document.querySelector("#products");
-
 data.items.forEach(item => {
   const card = document.createElement("div");
   card.className = "product-card";
-
   card.innerHTML = `
     <img src="${item.image}" alt="${item.name}">
     <div class="product-details">
@@ -83,7 +80,6 @@ data.items.forEach(item => {
       </div>
     </div>
   `;
-
   container.appendChild(card);
 });
 
