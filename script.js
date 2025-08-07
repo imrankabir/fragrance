@@ -2,9 +2,9 @@ const data = {
   "items": [
     {
       "name": "Janan Sports",
-      "description": "beautiful fregrence",
+      "description": "A beautiful, long-lasting fragrance designed for active individuals who appreciate a fresh, sporty scent with a touch of elegance. Perfect for daily wear and energetic lifestyles.",
       "image": "images/janan-support.png",
-      "brand": "J.",
+      "brand": "J. (Junaid Jamshed)",
       "available": true,
       "show_price": true,
       "prices": [
@@ -13,10 +13,10 @@ const data = {
       ]
     },
     {
-      "name": "Sky Blue",
-      "description": "beautiful fregrence",
+      "name": "Sky Blue (England)",
+      "description": "A crisp, vibrant fragrance inspired by the refreshing breeze of English mornings. Sky Blue (England) blends cool citrus and aquatic notes with a hint of musk, making it perfect for confident, modern individuals.",
       "image": "images/sky-blue.png",
-      "brand": "England",
+      "brand": "J. (Junaid Jamshed)",
       "available": true,
       "show_price": true,
       "prices": [
@@ -25,10 +25,10 @@ const data = {
       ]
     },
     {
-      "name": "ERBA PURA",
-      "description": "beautiful fregrence",
+      "name": "Erba Pura",
+      "description": "A luxurious and exotic unisex fragrance, Erba Pura opens with a burst of fresh citrus and sweet fruits, layered over a sensual base of white musk, amber, and vanilla. This captivating scent is both vibrant and smooth, leaving a long-lasting impression.",
       "image": "images/erba-pura.png",
-      "brand": "England",
+      "brand": "Xerjoff",
       "available": true,
       "show_price": true,
       "prices": [
@@ -37,10 +37,10 @@ const data = {
       ]
     },
     {
-      "name": "ELIXIR",
-      "description": "beautiful fregrence",
+      "name": "Elixir",
+      "description": "A bold and enchanting fragrance crafted for those who command attention. Elixir features a rich blend of spicy, woody, and oriental notes, offering a deep, masculine scent with remarkable longevity and projection. Ideal for evening wear and special occasions.",
       "image": "images/elixir.png",
-      "brand": "England",
+      "brand": "J. (Junaid Jamshed)",
       "available": true,
       "show_price": true,
       "prices": [
@@ -50,9 +50,9 @@ const data = {
     },
     {
       "name": "Mukhallat Al Badar",
-      "description": "beautiful fregrence",
+      "description": "A classic oriental fragrance blending rich oud, warm amber, and floral notes, Mukhallat Al Badar exudes traditional elegance and timeless charm. Its deep, resinous aroma lingers gracefully, making it a perfect choice for those who appreciate heritage and sophistication.",
       "image": "images/mukhallat-al-badar.png",
-      "brand": "England",
+      "brand": "Al Haramain",
       "available": true,
       "show_price": true,
       "prices": [
