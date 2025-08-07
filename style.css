@@ -16,11 +16,15 @@ header {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to right, #ff8a00, #e52e71);
 }
+header h1 {
+  font-size: 1.5rem;
+}
 main {
   gap: 2rem;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
   justify-content: center;
 }
 .product-card {
@@ -82,16 +86,16 @@ main {
   border: 1px solid #ffeeba;
 }
 .whatsapp-contact {
-  margin: 2rem auto;
-  font-size: 1.2rem;
+  margin-top: .5rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 .whatsapp-contact a {
-  color: white;
+  color: #063;
   font-weight: bold;
   background: #25D366;
   border-radius: 30px;
-  padding: 0.8rem 1rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
   display: inline-block;
   transition: background 0.3s ease;
@@ -103,8 +107,11 @@ main {
   margin-top: auto;
 }
 footer {
+  bottom: 0;
+  width: 100%;
   color: #555;
   padding: 1rem;
+  position: fixed;
   background: #eee;
   font-size: 0.9rem;
   text-align: center;
