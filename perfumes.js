@@ -1,11 +1,11 @@
-const perfumesData = {
+const perfumes = {
   "items": [
     {
       "name": "Elixir",
       "description": "A bold and enchanting fragrance crafted for those who command attention...",
       "image": "images/elixir.png",
       "brand": "J. (Junaid Jamshed)",
-      "available": false,
+      "available": true,
       "show_price": true,
       "prices": [
         { "quantity": "50ml", "price": "3,600 PKR" }
@@ -14,7 +14,7 @@ const perfumesData = {
   ]
 };
 
-renderProducts(perfumesData.items);
+renderProducts(perfumes.items);
 
 function renderProducts(items) {
   const container = document.querySelector("#products");

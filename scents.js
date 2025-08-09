@@ -1,4 +1,4 @@
-const data = {
+const scents = {
   "items": [
     {
       "name": "Janan Sports",
@@ -17,7 +17,7 @@ const data = {
       "description": "A crisp, vibrant fragrance inspired by the refreshing breeze...",
       "image": "images/sky-blue.png",
       "brand": "J. (Junaid Jamshed)",
-      "available": false,
+      "available": true,
       "show_price": true,
       "prices": [
         { "quantity": "6ml", "price": "700 PKR" },
@@ -51,7 +51,7 @@ const data = {
   ]
 };
 
-renderProducts(data.items);
+renderProducts(scents.items);
 
 function renderProducts(items) {
   const container = document.querySelector("#products");
