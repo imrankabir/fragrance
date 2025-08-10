@@ -5,7 +5,7 @@ const perfumes = {
       "description": "A bold and enchanting fragrance crafted for those who command attention...",
       "image": "images/elixir.png",
       "brand": "J. (Junaid Jamshed)",
-      "available": true,
+      "available": false,
       "show_price": true,
       "prices": [
         { "quantity": "50ml", "price": "3,600 PKR" }
