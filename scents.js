@@ -2,7 +2,7 @@ const scents = {
   "items": [
     {
       "name": "Janan Sports",
-      "description": "A beautiful, long-lasting fragrance designed for active individuals...",
+      "description": "A beautiful, long-lasting fragrance designed for active individuals who appreciate a fresh, sporty scent with a touch of elegance. Perfect for daily wear and energetic lifestyles.",
       "image": "images/janan-support.png",
       "brand": "J. (Junaid Jamshed)",
       "available": true,
@@ -15,7 +15,7 @@ const scents = {
     },
     {
       "name": "Sky Blue (England)",
-      "description": "A crisp, vibrant fragrance inspired by the refreshing breeze...",
+      "description": "A crisp, vibrant fragrance inspired by the refreshing breeze of English mornings. Sky Blue (England) blends cool citrus and aquatic notes with a hint of musk, making it perfect for confident, modern individuals.",
       "image": "images/sky-blue.png",
       "brand": "J. (Junaid Jamshed)",
       "available": true,
@@ -28,7 +28,7 @@ const scents = {
     },
     {
       "name": "Erba Pura",
-      "description": "A luxurious and exotic unisex fragrance...",
+      "description": "A luxurious and exotic unisex fragrance, Erba Pura opens with a burst of fresh citrus and sweet fruits, layered over a sensual base of white musk, amber, and vanilla. This captivating scent is both vibrant and smooth, leaving a long-lasting impression.",
       "image": "images/erba-pura.png",
       "brand": "Xerjoff",
       "available": true,
@@ -41,7 +41,7 @@ const scents = {
     },
     {
       "name": "Mukhallat Al Badar",
-      "description": "A classic oriental fragrance blending rich oud...",
+      "description": "A classic oriental fragrance blending rich oud, warm amber, and floral notes, Mukhallat Al Badar exudes traditional elegance and timeless charm. Its deep, resinous aroma lingers gracefully, making it a perfect choice for those who appreciate heritage and sophistication.",
       "image": "images/mukhallat-al-badar.png",
       "brand": "Al Haramain",
       "available": true,
