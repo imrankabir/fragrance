@@ -8,8 +8,8 @@ const scents = {
       "available": true,
       "show_price": true,
       "prices": [
-        { "quantity": "3ml", "price": "400 PKR" },
-        { "quantity": "6ml", "price": "750 PKR" },
+        { "quantity": "3ml", "price": "450 PKR" },
+        { "quantity": "6ml", "price": "800 PKR" },
         { "quantity": "12ml", "price": "1,450 PKR" }
       ]
     },
@@ -34,9 +34,9 @@ const scents = {
       "available": true,
       "show_price": true,
       "prices": [
-        { "quantity": "3ml", "price": "400 PKR" },
-        { "quantity": "6ml", "price": "750 PKR" },
-        { "quantity": "12ml", "price": "1,400 PKR" }
+        { "quantity": "3ml", "price": "450 PKR" },
+        { "quantity": "6ml", "price": "800 PKR" },
+        { "quantity": "12ml", "price": "1,450 PKR" }
       ]
     },
     {
@@ -47,7 +47,7 @@ const scents = {
       "available": true,
       "show_price": true,
       "prices": [
-        { "quantity": "3ml", "price": "450 PKR" },
+        { "quantity": "3ml", "price": "500 PKR" },
         { "quantity": "6ml", "price": "950 PKR" },
         { "quantity": "12ml", "price": "1,600 PKR" }
       ]
