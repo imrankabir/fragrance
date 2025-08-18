@@ -22,7 +22,7 @@ function renderProducts(items) {
     const card = document.createElement("div");
     card.className = "product-card";
     card.innerHTML = `
-      <img src="${item.image}" alt="${item.name}">
+      <img src="${item.image}?v=1" alt="${item.name}">
       <div class="product-details">
         <h2>${item.name}</h2>
         <p><strong>Brand:</strong> ${item.brand}</p>
