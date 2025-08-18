@@ -18,7 +18,7 @@ const scents = {
       "description": "A crisp, vibrant fragrance inspired by the refreshing breeze of English mornings. Sky Blue (England) blends cool citrus and aquatic notes with a hint of musk, making it perfect for confident, modern individuals.",
       "image": "images/sky-blue.png",
       "brand": "J. (Junaid Jamshed)",
-      "available": true,
+      "available": false,
       "show_price": true,
       "prices": [
         { "quantity": "3ml", "price": "350 PKR" },
