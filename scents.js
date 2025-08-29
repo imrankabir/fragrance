@@ -6,7 +6,7 @@ const scents = {
       "image": "images/janan-support.png",
       "brand": "J. (Junaid Jamshed)",
       "available": true,
-      "show_price": true,
+      "show_price": false,
       "prices": [
         { "quantity": "3ml", "price": "450 PKR" },
         { "quantity": "6ml", "price": "800 PKR" },
@@ -19,7 +19,7 @@ const scents = {
       "image": "images/sky-blue.png",
       "brand": "J. (Junaid Jamshed)",
       "available": false,
-      "show_price": true,
+      "show_price": false,
       "prices": [
         { "quantity": "3ml", "price": "350 PKR" },
         { "quantity": "6ml", "price": "700 PKR" },
@@ -32,7 +32,7 @@ const scents = {
       "image": "images/erba-pura.png",
       "brand": "Xerjoff",
       "available": true,
-      "show_price": true,
+      "show_price": false,
       "prices": [
         { "quantity": "3ml", "price": "450 PKR" },
         { "quantity": "6ml", "price": "800 PKR" },
@@ -45,7 +45,7 @@ const scents = {
       "image": "images/mukhallat-al-badar.png",
       "brand": "Al Haramain",
       "available": true,
-      "show_price": true,
+      "show_price": false,
       "prices": [
         { "quantity": "3ml", "price": "500 PKR" },
         { "quantity": "6ml", "price": "950 PKR" },

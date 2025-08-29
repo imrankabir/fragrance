@@ -6,7 +6,7 @@ const perfumes = {
       "image": "images/elixir.png",
       "brand": "J. (Junaid Jamshed)",
       "available": false,
-      "show_price": true,
+      "show_price": false,
       "prices": [
         { "quantity": "50ml", "price": "3,600 PKR" }
       ]
@@ -22,7 +22,7 @@ function renderProducts(items) {
     const card = document.createElement("div");
     card.className = "product-card";
     card.innerHTML = `
-      <img src="${item.image}?v=1" alt="${item.name}">
+      <img src="${item.image}" alt="${item.name}">
       <div class="product-details">
         <h2>${item.name}</h2>
         <p><strong>Brand:</strong> ${item.brand}</p>
