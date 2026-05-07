@@ -1,9 +1,17 @@
-css
+```css id="e0x4yu"
+/* =========================================
+   Ibn e Kabir Fragrance - Final Style.css
+========================================= */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,14 +21,16 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+/* =========================================
+   Header
+========================================= */
 
 header {
   color: white;
   padding: 2rem 1rem;
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to right, #ff8a00, #e52e71);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 header h1 {
@@ -35,7 +45,42 @@ header h1 {
   margin-bottom: 1rem;
 }
 
-/* Navigation */
+/* =========================================
+   Language Switch
+========================================= */
+
+.language-switch {
+  gap: 10px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.lang-btn {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 8px 18px;
+  color: #222;
+  background: rgba(255,255,255,0.75);
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  transform: translateY(-2px);
+  background: white;
+}
+
+.active-lang {
+  color: white !important;
+  background: #111 !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+/* =========================================
+   Navbar
+========================================= */
 
 .navbar {
   margin-top: 1rem;
@@ -70,7 +115,35 @@ header h1 {
   background: rgba(255,255,255,0.6);
 }
 
-/* Hero Section */
+/* =========================================
+   WhatsApp Contact
+========================================= */
+
+.whatsapp-contact {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.whatsapp-contact a {
+  color: #063;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  background: #25D366;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-contact a:hover {
+  background: #1ebd5b;
+  transform: scale(1.03);
+}
+
+/* =========================================
+   Hero Banner
+========================================= */
 
 .hero-banner {
   padding: 3rem 1.5rem;
@@ -79,19 +152,21 @@ header h1 {
 }
 
 .hero-banner h2 {
+  color: #e52e71;
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #e52e71;
 }
 
 .hero-banner p {
-  max-width: 800px;
+  max-width: 850px;
   margin: auto;
-  font-size: 1rem;
   color: #555;
+  font-size: 1rem;
 }
 
-/* CTA Buttons */
+/* =========================================
+   CTA Buttons
+========================================= */
 
 .cta-buttons {
   gap: 1rem;
@@ -130,18 +205,22 @@ header h1 {
   transform: translateY(-2px);
 }
 
-/* Main Products Area */
+/* =========================================
+   Main Products Area
+========================================= */
 
 main {
   gap: 2rem;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 120px;
+  margin-bottom: 3rem;
   justify-content: center;
 }
 
-/* Product Card */
+/* =========================================
+   Product Card
+========================================= */
 
 .product-card {
   width: 320px;
@@ -151,7 +230,7 @@ main {
   border-radius: 15px;
   flex-direction: column;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .product-card:hover {
@@ -165,7 +244,9 @@ main {
   object-fit: cover;
 }
 
-/* Product Details */
+/* =========================================
+   Product Details
+========================================= */
 
 .product-details {
   flex: 1;
@@ -184,7 +265,9 @@ main {
   margin: 0.25rem 0;
 }
 
-/* Price List */
+/* =========================================
+   Price List
+========================================= */
 
 .price-list {
   margin-top: auto;
@@ -202,7 +285,9 @@ main {
   background: #ececec;
 }
 
-/* Availability */
+/* =========================================
+   Availability
+========================================= */
 
 .availability {
   padding: 0.7rem;
@@ -224,37 +309,9 @@ main {
   border: 1px solid #ffeeba;
 }
 
-/* WhatsApp Contact */
-
-.whatsapp-contact {
-  margin-top: 1rem;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.whatsapp-contact a {
-  color: #063;
-  font-weight: bold;
-  border-radius: 40px;
-  padding: 0.7rem 1.2rem;
-  text-decoration: none;
-  display: inline-block;
-  background: #25D366;
-  transition: all 0.3s ease;
-}
-
-.whatsapp-contact a:hover {
-  background: #1ebd5b;
-  transform: scale(1.03);
-}
-
-/* Bottom Section */
-
-.bottom-section {
-  margin-top: auto;
-}
-
-/* Social Section */
+/* =========================================
+   Social Section
+========================================= */
 
 .social-section {
   padding: 3rem 1.5rem;
@@ -263,9 +320,9 @@ main {
 }
 
 .social-section h3 {
+  color: #e52e71;
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #e52e71;
 }
 
 .social-links {
@@ -287,15 +344,17 @@ main {
 
 .social-links a:hover {
   color: white;
-  background: linear-gradient(to right, #ff8a00, #e52e71);
   transform: translateY(-2px);
+  background: linear-gradient(to right, #ff8a00, #e52e71);
 }
 
-/* Footer */
+/* =========================================
+   Footer
+========================================= */
 
 footer {
   width: 100%;
-  color: #fff;
+  color: white;
   padding: 1.5rem;
   text-align: center;
   background: linear-gradient(to right, #111, #222);
@@ -322,7 +381,9 @@ footer p {
   text-decoration: underline;
 }
 
-/* Responsive */
+/* =========================================
+   Responsive
+========================================= */
 
 @media (max-width: 768px) {
 
@@ -330,8 +391,16 @@ footer p {
     font-size: 1.6rem;
   }
 
+  .tagline {
+    font-size: 0.95rem;
+  }
+
   .hero-banner h2 {
     font-size: 1.5rem;
+  }
+
+  .hero-banner p {
+    font-size: 0.95rem;
   }
 
   .navbar ul {
@@ -341,6 +410,11 @@ footer p {
   .navbar a {
     font-size: 0.9rem;
     padding: 0.6rem 1rem;
+  }
+
+  .lang-btn {
+    padding: 7px 15px;
+    font-size: 0.9rem;
   }
 
   .product-card {
@@ -356,7 +430,8 @@ footer p {
     padding: 1rem;
   }
 
-  footer {
-    position: relative;
+  .social-links a {
+    font-size: 0.9rem;
   }
 }
+```
