@@ -1,14 +1,30 @@
+// const perfumes = {
+//   "items": [
+//     {
+//       "name": "Elixir",
+//       "description": "A bold and enchanting fragrance crafted for those who command attention. Elixir features a rich blend of spicy, woody, and oriental notes, offering a deep, masculine scent with remarkable longevity and projection. Ideal for evening wear and special occasions.",
+//       "image": "images/elixir.png",
+//       "brand": "J. (Junaid Jamshed)",
+//       "available": false,
+//       "show_price": false,
+//       "prices": [
+//         { "quantity": "50ml", "price": "3,600 PKR" }
+//       ]
+//     }
+//   ]
+// };
+
 const perfumes = {
   "items": [
     {
-      "name": "Elixir",
-      "description": "A bold and enchanting fragrance crafted for those who command attention. Elixir features a rich blend of spicy, woody, and oriental notes, offering a deep, masculine scent with remarkable longevity and projection. Ideal for evening wear and special occasions.",
-      "image": "images/elixir.png",
-      "brand": "J. (Junaid Jamshed)",
-      "available": false,
+      "name": "مخلط العود الرصاصی (20ml)",
+      "description": "ایک اعلیٰ درجے کی مشرقی خوشبو جس میں خالص عود اور ریزینی خوشبوؤں کا شاندار امتزاج شامل ہے۔ یہ پرفیوم گہرائی، وقار اور دیرپا اثر کے لیے جانا جاتا ہے اور خاص مواقع کے لیے بہترین انتخاب ہے۔",
+      "image": "images/mukhalat-al-oud-rasasi.jpeg",
+      "brand": "الرصاصی کمپنی",
+      "available": true,
       "show_price": false,
       "prices": [
-        { "quantity": "50ml", "price": "3,600 PKR" }
+        { "quantity": "20ml", "price": "TBD" }
       ]
     }
   ]
