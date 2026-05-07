@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ur">
+
 <head>
 
   <meta charset="UTF-8" />
@@ -40,7 +41,7 @@
         href="favicon.png">
 
   <link rel="stylesheet"
-        href="style.css?v=5" />
+        href="style.css?v=6" />
 
 </head>
 
@@ -81,15 +82,17 @@
       <ul>
 
         <li>
-          <a href="index.html?lang=ur"
-             id="navScents">
+          <a href="#"
+             id="navScents"
+             onclick="navigateWithLang('index.html')">
             خوشبوئیں
           </a>
         </li>
 
         <li>
-          <a href="perfumes.html?lang=ur"
-             id="navPerfumes">
+          <a href="#"
+             id="navPerfumes"
+             onclick="navigateWithLang('perfumes.html')">
             پرفیومز
           </a>
         </li>
@@ -251,6 +254,16 @@
 
     }
 
+    function navigateWithLang(page) {
+
+      const currentLang =
+        document.documentElement.lang || 'ur';
+
+      window.location.href =
+        `${page}?lang=${currentLang}`;
+
+    }
+
     function setLanguage(lang) {
 
       updateURL(lang);
@@ -361,9 +374,11 @@
 
     // Load Language From URL
 
-    const urlParams = new URLSearchParams(window.location.search);
+    const urlParams =
+      new URLSearchParams(window.location.search);
 
-    const selectedLang = urlParams.get('lang') || 'ur';
+    const selectedLang =
+      urlParams.get('lang') || 'ur';
 
     setLanguage(selectedLang);
 
