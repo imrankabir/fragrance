@@ -1,146 +1,362 @@
+css
 * {
   margin: 0;
   padding: 0;
-  user-select: none;
   box-sizing: border-box;
+  user-select: none;
 }
+
 body {
   color: #333;
   background: #fdfdfd;
   font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
 }
+
+/* Header */
+
 header {
   color: white;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to right, #ff8a00, #e52e71);
 }
+
 header h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
 }
+
+.tagline {
+  font-size: 1rem;
+  opacity: 0.95;
+  margin-bottom: 1rem;
+}
+
+/* Navigation */
+
 .navbar {
-  margin: 10px 0px;
-  background: linear-gradient(to right, #ff8a00, #e52e71);
+  margin-top: 1rem;
 }
+
 .navbar ul {
-  margin: 0;
+  gap: 1rem;
   display: flex;
-  padding: 0.5rem;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: center;
 }
+
 .navbar li {
-  margin: 0 1rem;
+  margin: 0;
 }
+
 .navbar a {
   color: #000;
   font-size: 1rem;
   font-weight: bold;
-  border-radius: 25px;
-  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  padding: 0.7rem 1.2rem;
   text-decoration: none;
-  background: rgba(255,255,255,0.2);
-  transition: background 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  background: rgba(255,255,255,0.25);
+  transition: all 0.3s ease;
 }
+
 .navbar a:hover {
-  transform: scale(1.05);
-  background: rgba(255,255,255,0.5);
+  transform: translateY(-2px) scale(1.03);
+  background: rgba(255,255,255,0.6);
 }
+
+/* Hero Section */
+
+.hero-banner {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: white;
+}
+
+.hero-banner h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e52e71;
+}
+
+.hero-banner p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* CTA Buttons */
+
+.cta-buttons {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.cta-buttons a {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 0.9rem 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp {
+  color: white;
+  background: #25D366;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebd5b;
+  transform: translateY(-2px);
+}
+
+.btn-products {
+  color: white;
+  background: #111;
+}
+
+.btn-products:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+/* Main Products Area */
+
 main {
   gap: 2rem;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 120px;
   justify-content: center;
 }
+
+/* Product Card */
+
 .product-card {
   width: 320px;
   display: flex;
   overflow: hidden;
   background: white;
-  border-radius: 10px;
+  border-radius: 15px;
   flex-direction: column;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 .product-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
+
 .product-card img {
   width: 100%;
   height: 700px;
   object-fit: cover;
 }
+
+/* Product Details */
+
 .product-details {
   flex: 1;
   display: flex;
   padding: 1rem;
   flex-direction: column;
 }
+
 .product-details h2 {
   color: #e52e71;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
 .product-details p {
   margin: 0.25rem 0;
 }
+
+/* Price List */
+
 .price-list {
   margin-top: auto;
 }
+
 .price-list div {
-  padding: 0.5rem;
-  border-radius: 5px;
+  padding: 0.7rem;
+  border-radius: 8px;
   background: #f4f4f4;
   margin-bottom: 0.5rem;
+  transition: 0.3s ease;
 }
+
+.price-list div:hover {
+  background: #ececec;
+}
+
+/* Availability */
+
 .availability {
-  padding: 0.5rem;
+  padding: 0.7rem;
   font-weight: bold;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 8px;
 }
+
 .available {
   color: #155724;
   background: #d4edda;
   border: 1px solid #c3e6cb;
 }
+
 .coming {
   color: #856404;
   background: #fff3cd;
   border: 1px solid #ffeeba;
 }
+
+/* WhatsApp Contact */
+
 .whatsapp-contact {
-  margin-top: .5rem;
-  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
   text-align: center;
 }
+
 .whatsapp-contact a {
   color: #063;
   font-weight: bold;
-  background: #25D366;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  padding: 0.7rem 1.2rem;
   text-decoration: none;
   display: inline-block;
-  transition: background 0.3s ease;
+  background: #25D366;
+  transition: all 0.3s ease;
 }
+
 .whatsapp-contact a:hover {
   background: #1ebd5b;
+  transform: scale(1.03);
 }
+
+/* Bottom Section */
+
 .bottom-section {
   margin-top: auto;
 }
-footer {
-  bottom: 0;
-  width: 100%;
-  color: #555;
-  padding: 1rem;
-  position: fixed;
-  background: #eee;
-  font-size: 0.9rem;
+
+/* Social Section */
+
+.social-section {
+  padding: 3rem 1.5rem;
   text-align: center;
+  background: white;
+}
+
+.social-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #e52e71;
+}
+
+.social-links {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-links a {
+  color: #333;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.8rem 1.3rem;
+  text-decoration: none;
+  background: #f3f3f3;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: white;
+  background: linear-gradient(to right, #ff8a00, #e52e71);
+  transform: translateY(-2px);
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  background: linear-gradient(to right, #111, #222);
+}
+
+footer p {
+  margin: 0.4rem 0;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: #ffb347;
+  margin: 0 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .navbar ul {
+    gap: 0.5rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .product-card img {
+    height: 500px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  footer {
+    position: relative;
+  }
 }
