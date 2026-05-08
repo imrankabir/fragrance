@@ -253,6 +253,7 @@ main {
   display: flex;
   padding: 1rem;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-details h2 {
@@ -263,6 +264,17 @@ main {
 
 .product-details p {
   margin: 0.25rem 0;
+}
+
+/* =========================================
+   Bottom Section
+========================================= */
+
+.bottom-section {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* =========================================
@@ -417,10 +429,16 @@ footer p {
     font-size: 0.9rem;
   }
 
-  .product-card {
-    width: 100%;
-    max-width: 340px;
-  }
+.product-card {
+  width: 320px;
+  display: flex;
+  overflow: hidden;
+  background: white;
+  border-radius: 15px;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 
   .product-card img {
     height: 500px;
@@ -434,4 +452,3 @@ footer p {
     font-size: 0.9rem;
   }
 }
-```
