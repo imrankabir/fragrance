@@ -4,16 +4,12 @@
 <head>
 
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
-
   <title>Ibn e Kabir Fragrance | ابنِ کبیر فریگرنس</title>
 
   <!-- SEO -->
   <meta name="description" content="ابنِ کبیر فریگرنس - پاکستان میں بہترین پرفیومز، عطر اور لانگ لاسٹنگ خوشبوئیں۔">
-
   <meta name="keywords" content="ابن کبیر فریگرنس, perfumes Pakistan, attar, fragrances, luxury scents">
-
   <meta name="author" content="Ibn e Kabir Fragrance">
 
   <!-- Open Graph -->
@@ -33,14 +29,9 @@
   <!-- Header -->
   <header>
 
-    <h1 id="title">
-      ابنِ کبیر فریگرنس
-    </h1>
+    <h1 id="title">ابنِ کبیر فریگرنس</h1>
 
-    <p class="tagline"
-       id="tagline">
-      بہترین خوشبوئیں • پریمیم پرفیومز • دیرپا خوشبو
-    </p>
+    <p class="tagline"id="tagline">بہترین خوشبوئیں • پریمیم پرفیومز • دیرپا خوشبو</p>
 
     <!-- Language Switch -->
     <div class="language-switch">
@@ -50,48 +41,16 @@
 
     <!-- Navbar -->
     <nav class="navbar">
-
       <ul>
-
-        <li>
-          <a href="#"
-             id="navScents"
-             onclick="navigateWithLang('index.html')">
-            خوشبوئیں
-          </a>
-        </li>
-
-        <li>
-          <a href="#"
-             id="navPerfumes"
-             onclick="navigateWithLang('perfumes.html')">
-            پرفیومز
-          </a>
-        </li>
-
-        <li>
-          <a href="https://wa.me/c/923444010113"
-             target="_blank"
-             id="navProducts">
-            پروڈکٹس
-          </a>
-        </li>
-
+        <li><a href="javascript:void(0)" id="navScents" onclick="navigateWithLang('index.html')">خوشبوئیں</a></li>
+        <li><a href="javascript:void(0)" id="navPerfumes" onclick="navigateWithLang('perfumes.html')">پرفیومز</a></li>
+        <li><a href="https://wa.me/c/923444010113" target="_blank" id="navProducts">پروڈکٹس</a></li>
       </ul>
-
     </nav>
 
     <!-- WhatsApp -->
     <div class="whatsapp-contact">
-
-      <a href="https://wa.me/923444010113"
-         target="_blank"
-         id="orderBtn">
-
-        📱 واٹس ایپ پر آرڈر کریں
-
-      </a>
-
+      <a href="https://wa.me/923444010113" target="_blank" id="orderBtn">📱 واٹس ایپ پر آرڈر کریں</a>
     </div>
 
   </header>
@@ -99,9 +58,7 @@
   <!-- Hero -->
   <section class="hero-banner">
 
-    <h2 id="heroTitle">
-      اپنی شخصیت کو خوشبو سے منفرد بنائیں
-    </h2>
+    <h2 id="heroTitle">اپنی شخصیت کو خوشبو سے منفرد بنائیں</h2>
 
     <p id="heroText">
       ابنِ کبیر فریگرنس میں خوش آمدید۔ یہاں آپ کو بہترین پرفیومز،
@@ -109,25 +66,8 @@
     </p>
 
     <div class="cta-buttons">
-
-      <a class="btn-whatsapp"
-         href="https://wa.me/923444010113"
-         target="_blank"
-         id="ctaOrder">
-
-         📱 ابھی آرڈر کریں
-
-      </a>
-
-      <a class="btn-products"
-         href="https://wa.me/c/923444010113"
-         target="
-         id="ctaProducts">
-
-         🛍 تمام پروڈکٹس دیکھیں
-
-      </a>
-
+      <a class="btn-whatsapp" href="https://wa.me/923444010113" target="_blank" id="ctaOrder">📱 ابھی آرڈر کریں</a>
+      <a class="btn-products" href="https://wa.me/c/923444010113" target="_blank" id="ctaProducts">🛍 تمام پروڈکٹس دیکھیں</a>
     </div>
 
   </section>
@@ -138,9 +78,7 @@
   <!-- Social -->
   <section class="social-section">
 
-    <h3 id="socialHeading">
-      ہم سے جُڑے رہیں
-    </h3>
+    <h3 id="socialHeading">ہم سے جُڑے رہیں</h3>
 
     <div class="social-links">
 
@@ -217,143 +155,91 @@
   <script>
 
     function updateURL(lang) {
-
       const url = new URL(window.location);
-
       url.searchParams.set('lang', lang);
-
       window.history.replaceState({}, '', url);
-
     }
 
     function navigateWithLang(page) {
-
       const currentLang =
         document.documentElement.lang || 'ur';
-
       window.location.href =
         `${page}?lang=${currentLang}`;
-
     }
 
     function setLanguage(lang) {
-
       updateURL(lang);
-
       if(lang === 'en') {
-
         document.documentElement.lang = 'en';
-
         document.getElementById('enBtn')
                 .classList.add('active-lang');
-
         document.getElementById('urBtn')
                 .classList.remove('active-lang');
-
         document.getElementById('title').innerText =
           'Ibn e Kabir Fragrance';
-
         document.getElementById('tagline').innerText =
           'Premium Perfumes • Luxury Scents • Long Lasting Fragrances';
-
         document.getElementById('navScents').innerText =
           'Scents';
-
         document.getElementById('navPerfumes').innerText =
           'Perfumes';
-
         document.getElementById('navProducts').innerText =
           'Products';
-
         document.getElementById('orderBtn').innerText =
           '📱 Order on WhatsApp';
-
         document.getElementById('heroTitle').innerText =
           'Discover Elegant Long Lasting Fragrances';
-
         document.getElementById('heroText').innerText =
           'Welcome to Ibn e Kabir Fragrance. Explore premium perfumes and luxury attars.';
-
         document.getElementById('ctaOrder').innerText =
           '📱 Order Now';
-
         document.getElementById('ctaProducts').innerText =
           '🛍 View Products';
-
         document.getElementById('socialHeading').innerText =
           'Connect With Us';
-
         document.getElementById('footerText1').innerText =
           '© 2025 Ibn e Kabir Fragrance - All Rights Reserved';
-
         document.getElementById('footerText2').innerText =
           'Premium Fragrances Available Across Pakistan';
-
-      }
-
-      else {
-
+      } else {
         document.documentElement.lang = 'ur';
-
         document.getElementById('urBtn')
                 .classList.add('active-lang');
-
         document.getElementById('enBtn')
                 .classList.remove('active-lang');
-
         document.getElementById('title').innerText =
           'ابنِ کبیر فریگرنس';
-
         document.getElementById('tagline').innerText =
           'بہترین خوشبوئیں • پریمیم پرفیومز • دیرپا خوشبو';
-
         document.getElementById('navScents').innerText =
           'خوشبوئیں';
-
         document.getElementById('navPerfumes').innerText =
           'پرفیومز';
-
         document.getElementById('navProducts').innerText =
           'پروڈکٹس';
-
         document.getElementById('orderBtn').innerText =
           '📱 واٹس ایپ پر آرڈر کریں';
-
         document.getElementById('heroTitle').innerText =
           'اپنی شخصیت کو خوشبو سے منفرد بنائیں';
-
         document.getElementById('heroText').innerText =
           'ابنِ کبیر فریگرنس میں خوش آمدید۔ یہاں آپ کو بہترین پرفیومز، عطر اور لانگ لاسٹنگ خوشبوئیں ملیں گی۔';
-
         document.getElementById('ctaOrder').innerText =
           '📱 ابھی آرڈر کریں';
-
         document.getElementById('ctaProducts').innerText =
           '🛍 تمام پروڈکٹس دیکھیں';
-
         document.getElementById('socialHeading').innerText =
           'ہم سے جُڑے رہیں';
-
         document.getElementById('footerText1').innerText =
           '© 2025 ابنِ کبیر فریگرنس - تمام حقوق محفوظ ہیں';
-
         document.getElementById('footerText2').innerText =
           'پاکستان بھر میں پریمیم خوشبوئیں دستیاب';
-
       }
-
     }
 
     // Load Language From URL
-
-    const urlParams =
-      new URLSearchParams(window.location.search);
-
-    const selectedLang =
-      urlParams.get('lang') || 'ur';
-
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedLang = urlParams.get('lang') || 'ur';
     setLanguage(selectedLang);
-
   </script>
 
 </body>
