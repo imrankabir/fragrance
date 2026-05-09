@@ -1489,8 +1489,10 @@ function renderProducts(items) {
     card.innerHTML = `
       <img src="${item.image}" alt="${item.name}">
       <div class="product-details">
-        <h2>${item.name}</h2>
-        <p>${item.description}</p>
+        <span>
+          <h2>${item.name}</h2>
+          <p>${item.description}</p>
+        </span>
         <div class="bottom-section">
           ${item.show_price ? renderPrices(item.prices) : ""}
           <div class="availability ${item.available ? 'available' : 'coming'}">
