@@ -35,7 +35,12 @@ header {
 header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  letter-spacing: 1px;
+}
+
+:not(:lang(ur)) {
+  header h1 {
+       letter-spacing: 1px;
+  }
 }
 
 .tagline {
