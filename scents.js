@@ -588,7 +588,7 @@ const scents = {
          "image":"images/janan-sports.jpeg",
          "brand":"جے (جناحی خوشبو گھر)",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -610,7 +610,7 @@ const scents = {
          "image":"images/mukhalat-al-badr.jpeg",
          "brand":"عربک پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -632,7 +632,7 @@ const scents = {
          "image":"images/erba-pura.jpeg",
          "brand":"Xerjoff",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -654,7 +654,7 @@ const scents = {
          "image":"images/royal-oud.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -676,7 +676,7 @@ const scents = {
          "image":"images/white-oud.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -698,7 +698,7 @@ const scents = {
          "image":"images/fawakeh.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -720,7 +720,7 @@ const scents = {
          "image":"images/baccarat.jpeg",
          "brand":"Maison Collection",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -742,7 +742,7 @@ const scents = {
          "image":"images/mukhalat-badr-aldhabi.jpeg",
          "brand":"عربک پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -764,7 +764,7 @@ const scents = {
          "image":"images/ehsas-al-arabia.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -786,7 +786,7 @@ const scents = {
          "image":"images/ameer-ul-oud.jpeg",
          "brand":"عربک پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -808,7 +808,7 @@ const scents = {
          "image":"images/silver-cred.jpeg",
          "brand":"Creed Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -830,7 +830,7 @@ const scents = {
          "image":"images/romantic-coffee.jpeg",
          "brand":"نیش پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -852,7 +852,7 @@ const scents = {
          "image":"images/sultan-arab.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -874,7 +874,7 @@ const scents = {
          "image":"images/oud-for-greatness.jpeg",
          "brand":"Initio Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -896,7 +896,7 @@ const scents = {
          "image":"images/gucci-flora.jpeg",
          "brand":"Gucci Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -918,7 +918,7 @@ const scents = {
          "image":"images/fendi.jpeg",
          "brand":"Fendi Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -940,7 +940,7 @@ const scents = {
          "image":"images/tiger-aala.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -962,7 +962,7 @@ const scents = {
          "image":"images/taybah.jpeg",
          "brand":"عربک پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -984,7 +984,7 @@ const scents = {
          "image":"images/baccarat-rouge-540.jpeg",
          "brand":"Maison Francis Kurkdjian Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1006,7 +1006,7 @@ const scents = {
          "image":"images/oud-al-layl.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1028,7 +1028,7 @@ const scents = {
          "image":"images/flamenco-remon.jpeg",
          "brand":"نیش پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1050,7 +1050,7 @@ const scents = {
          "image":"images/open.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1072,7 +1072,7 @@ const scents = {
          "image":"images/sky-blue.jpeg",
          "brand":"J. Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1094,7 +1094,7 @@ const scents = {
          "image":"images/fendi-life.jpeg",
          "brand":"Fendi Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1116,7 +1116,7 @@ const scents = {
          "image":"images/dirham.jpeg",
          "brand":"Ard Al Zaafaran Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1138,7 +1138,7 @@ const scents = {
          "image":"images/sabaya.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1160,7 +1160,7 @@ const scents = {
          "image":"images/husn-yousaf.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1182,7 +1182,7 @@ const scents = {
          "image":"images/motia-aala.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1204,7 +1204,7 @@ const scents = {
          "image":"images/shamsa-dubai.jpeg",
          "brand":"Dubai Collection",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1226,7 +1226,7 @@ const scents = {
          "image":"images/darar.jpeg",
          "brand":"عربک پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1248,7 +1248,7 @@ const scents = {
          "image":"images/bukhoor.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1270,7 +1270,7 @@ const scents = {
          "image":"images/tiger.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1292,7 +1292,7 @@ const scents = {
          "image":"images/climate.jpeg",
          "brand":"Classic Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1314,7 +1314,7 @@ const scents = {
          "image":"images/mukhalat.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1336,7 +1336,7 @@ const scents = {
          "image":"images/ghilaf-e-kaaba.jpeg",
          "brand":"عربک کلیکشن",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1358,7 +1358,7 @@ const scents = {
          "image":"images/motia.jpeg",
          "brand":"پرفیوم ہاؤس",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1380,7 +1380,7 @@ const scents = {
          "image":"images/gucci-rush.jpeg",
          "brand":"Gucci Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1402,7 +1402,7 @@ const scents = {
          "image":"images/murj.jpeg",
          "brand":"نیش پرفیومز",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1424,7 +1424,7 @@ const scents = {
          "image":"images/royal-blue.jpeg",
          "brand":"J. Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
@@ -1446,7 +1446,7 @@ const scents = {
          "image":"images/sauvage.jpeg",
          "brand":"Dior Inspired",
          "available":true,
-         "show_price":false,
+         "show_price":true,
          "prices":[
             {
                "quantity":"3ml",
