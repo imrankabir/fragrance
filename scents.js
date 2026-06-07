@@ -592,15 +592,15 @@ const scents = {
          "prices":[
             {
                "quantity":"3ml",
-               "price":"450 PKR"
+               "price":"350 PKR"
             },
             {
                "quantity":"6ml",
-               "price":"800 PKR"
+               "price":"650 PKR"
             },
             {
                "quantity":"12ml",
-               "price":"1450 PKR"
+               "price":"1250 PKR"
             }
          ]
       },
@@ -614,15 +614,15 @@ const scents = {
          "prices":[
             {
                "quantity":"3ml",
-               "price":"500 PKR"
+               "price":"450 PKR"
             },
             {
                "quantity":"6ml",
-               "price":"950 PKR"
+               "price":"850 PKR"
             },
             {
                "quantity":"12ml",
-               "price":"1600 PKR"
+               "price":"1650 PKR"
             }
          ]
       },
@@ -636,15 +636,15 @@ const scents = {
          "prices":[
             {
                "quantity":"3ml",
-               "price":"450 PKR"
+               "price":"350 PKR"
             },
             {
                "quantity":"6ml",
-               "price":"800 PKR"
+               "price":"650 PKR"
             },
             {
                "quantity":"12ml",
-               "price":"1450 PKR"
+               "price":"1250 PKR"
             }
          ]
       },
@@ -658,15 +658,15 @@ const scents = {
          "prices":[
             {
                "quantity":"3ml",
-               "price":"500 PKR"
+               "price":"350 PKR"
             },
             {
                "quantity":"6ml",
-               "price":"900 PKR"
+               "price":"650 PKR"
             },
             {
                "quantity":"12ml",
-               "price":"1500 PKR"
+               "price":"1250 PKR"
             }
          ]
       },
@@ -680,15 +680,15 @@ const scents = {
          "prices":[
             {
                "quantity":"3ml",
-               "price":"450 PKR"
+               "price":"350 PKR"
             },
             {
                "quantity":"6ml",
-               "price":"850 PKR"
+               "price":"650 PKR"
             },
             {
                "quantity":"12ml",
-               "price":"1450 PKR"
+               "price":"1250 PKR"
             }
          ]
       },
