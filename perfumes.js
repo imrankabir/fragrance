@@ -22,9 +22,9 @@ const perfumes = {
       "image": "images/mukhalat-al-oud-rasasi.jpeg",
       "brand": "الرصاصی کمپنی",
       "available": true,
-      "show_price": false,
+      "show_price": true,
       "prices": [
-        { "quantity": "20ml", "price": "TBD" }
+        { "quantity": "20ml", "price": "3450" }
       ]
     },
   ]
